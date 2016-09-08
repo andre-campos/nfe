@@ -55,7 +55,7 @@ public enum NFAutorizador31 {
 
         @Override
         public String getNfceAutorizacao(final NFAmbiente ambiente) {
-            return NFAmbiente.HOMOLOGACAO.equals(ambiente) ? "https://homnfce.sefaz.am.gov.br/nfce-services/services/NfeAutorizacao" : "https://nfe.sefaz.am.gov.br/services2/services/NfeAutorizacao";
+            return NFAmbiente.HOMOLOGACAO.equals(ambiente) ? "https://homnfce.sefaz.am.gov.br/nfce-services/services/NfeAutorizacao" : "https://nfce.sefaz.am.gov.br/nfce-services/services/NfeAutorizacao";
         }
 
         @Override
